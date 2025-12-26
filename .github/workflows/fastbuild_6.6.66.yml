@@ -101,9 +101,9 @@ jobs:
           #sudo apt-get install -y --no-install-recommends curl bison flex make binutils git perl gcc python3 python-is-python3 bc libssl-dev libelf-dev zip unzip ccache
           
           echo "正在克隆源码仓库..."
-          aria2c -s16 -x16 -k1M https://github.com/m1w22/android_kernel_oneplus_mt6991/archive/refs/heads/oneplus/mt6991_v_15.0.2_ace5_ultrac.zip -o common.zip && 
+          aria2c -s16 -x16 -k1M https://github.com/m1w22/android_kernel_oneplus_mt6991/archive/refs/heads/oneplus/mt6991_v_15.0.2_ace5_ultraa.zip -o common.zip && 
           unzip -q common.zip && 
-          mv "android_kernel_oneplus_mt6991-oneplus-mt6991_v_15.0.2_ace5_ultrac" common &&
+          mv "android_kernel_oneplus_mt6991-oneplus-mt6991_v_15.0.2_ace5_ultraa" common &&
           rm -rf common.zip &
           
           echo "正在克隆llvm-clang18工具链..." &&
